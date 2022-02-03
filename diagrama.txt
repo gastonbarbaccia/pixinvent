@@ -1,0 +1,25 @@
+Dashboard:
+    - Tabla: Campos(nombre, apellido, email, telefono, 
+            estado:"Al dia, pendiente de pago, otros", 
+            comprobante de pago, forma de pago, fecha,opciones)
+
+    - Boton -> Nuevo usuario
+
+    - Boton -> Nueva propiedad   
+
+
+Services
+
+    - Datos del profesional: nombre, apellido, tipo de servicio, telefono, email, observaciones, opciones(eliminar,modificar, cargar)
+                             
+            - Datos del departamento: fecha,piso, numero, tarea, importe, fecha programada, observaciones, estatus
+
+Users
+
+Properties
+
+Tasks
+
+    Electricias, piso, departamento, tipo (servicio), estatus, observaciones
+
+User profile
