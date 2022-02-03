@@ -16,10 +16,8 @@ Services
 
 Users
 
+    - username, lastname, email, phone, dni, floor, number, notes ,options (edit, delete, see)
+
 Properties
-
-Tasks
-
-    Electricias, piso, departamento, tipo (servicio), estatus, observaciones
 
 User profile
