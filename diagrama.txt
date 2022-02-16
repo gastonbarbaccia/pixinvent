@@ -20,4 +20,8 @@ Users
 
 Properties
 
+    - username + lastname , floor, habitacion, direccion, localidad, invoice, method of payment, status, fecha de vencimiento, notas , opciones
+
 User profile
+
+    - username, lastname, email, password,
