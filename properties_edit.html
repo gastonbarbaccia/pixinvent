@@ -98,12 +98,12 @@ License: You must have a valid license purchased only from themeforest(the above
                     </a></li>
                   <li class="col-6 col-xl-4"><a class="text-center mb-2 mb-xl-3" href="app-chat.html" target="_blank"><i
                         class="feather icon-message-square font-large-1 mr-0"></i>
-                      /a></li>
-                  <li <p class="font-medium-2 mt-25 mb-0">Chat</p>
-                    < class="col-6 col-xl-4"><a class="text-center mb-2 mb-xl-3 mt-75 mt-xl-0" href="app-todo.html"
-                        target="_blank"><i class="feather icon-check-square font-large-1 mr-0"></i>
-                        <p class="font-medium-2 mt-25 mb-0">Todo</p>
-                      </a>
+                    </a>
+                  </li>
+                  <li class="col-6 col-xl-4"><a class="text-center mb-2 mb-xl-3 mt-75 mt-xl-0" href="app-todo.html"
+                      target="_blank"><i class="feather icon-check-square font-large-1 mr-0"></i>
+                      <p class="font-medium-2 mt-25 mb-0">Todo</p>
+                    </a>
                   </li>
                   <li class="col-6 col-xl-4"><a class="text-center mb-2 mt-75 mt-xl-0" href="app-kanban.html"
                       target="_blank"><i class="feather icon-file-plus font-large-1 mr-0"></i>
@@ -157,11 +157,11 @@ License: You must have a valid license purchased only from themeforest(the above
                 <div class="avatar avatar-online"><img src="/app-assets/images/portrait/small/avatar-s-1.png"
                     alt="avatar"><i></i></div><span class="user-name">John Doe</span>
               </a>
-             <div class="dropdown-menu dropdown-menu-right"><a class="dropdown-item" href="profile.html"><i
-    class="fa fa-user"></i> Edit Profile</a>
-<div class="dropdown-divider"></div><a class="dropdown-item" href="index.html"><i
-    class="fa fa-sign-out"></i> Logout</a>
-</div>
+              <div class="dropdown-menu dropdown-menu-right"><a class="dropdown-item" href="profile.html"><i
+                    class="fa fa-user"></i> Edit Profile</a>
+                <div class="dropdown-divider"></div><a class="dropdown-item" href="index.html"><i
+                    class="fa fa-sign-out"></i> Logout</a>
+              </div>
             </li>
           </ul>
         </div>
@@ -190,6 +190,8 @@ License: You must have a valid license purchased only from themeforest(the above
         <li class=" nav-item"><a href="properties.html"><i class="fa fa-folder"></i><span class="menu-title"
               data-i18n="Dashboard">Properties</span></a>
         </li>
+
+
         <li class=" nav-item"><a href="index.html"><i class="fa fa-sign-out"></i><span class="menu-title"
               data-i18n="Dashboard">Logout</span></a>
         </li>
@@ -205,34 +207,98 @@ License: You must have a valid license purchased only from themeforest(the above
       <div class="content-header row">
       </div>
 
-      <form method="GET" action="services_user.html">
+      <form method="POST" action="#">
         <table>
           <tr>
             <td style="width: 20%">
-              <div class="form-group" style="width: 50%;">
+              <div class="form-group">
                 <label for="exampleInputEmail1">Username</label>
                 <input type="text" class="form-control" id="exampleInputEmail1">
               </div>
-              <div class="form-group" style="width: 50%;">
+              <div class="form-group">
                 <label for="exampleInputPassword1">Lastname</label>
-                <input type="text" class="form-control" id="exampleInputPassword1">
+                <input type="email" class="form-control" id="exampleInputPassword1">
               </div>
-              <div class="form-group" style="width: 50%;">
-                <label for="exampleInputEmail1">Email</label>
+            </td>
+            <td style="width: 20%">
+              <div class="form-group">
+                <label for="exampleInputEmail1">Floor</label>
                 <input type="text" class="form-control" id="exampleInputEmail1">
               </div>
-              <div class="form-group" style="width: 50%;">
-                <label for="exampleInputPassword1">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
+              <div class="form-group">
+                <label for="exampleInputPassword1">Room</label>
+                <input type="text" class="form-control" id="exampleInputPassword1">
               </div>
             </td>
           </tr>
-          
-
+          <tr>
+            <td style="width: 20%">
+              <div class="form-group">
+                <label for="exampleInputEmail1">Address</label>
+                <input type="text" class="form-control" id="exampleInputEmail1">
+              </div>
+            </td>
+            <td style="width: 20%">
+              <div class="form-group">
+                <label for="exampleInputEmail1">Location</label>
+                <input type="text" class="form-control" id="exampleInputEmail1">
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="width: 20%">
+              <div class="form-group">
+                <label for="exampleInputEmail1">Invoice</label>
+                <input type="file" class="form-control" id="exampleInputEmail1">
+              </div>
+            </td>
+            <td style="width: 20%">
+              <div class="form-group">
+                <label for="exampleInputEmail1">Location</label>
+                <input type="text" class="form-control" id="exampleInputEmail1">
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="width: 20%">
+              <div class="form-group">
+                <label for="exampleInputEmail1">method of payment</label>
+                <input type="text" class="form-control" id="exampleInputEmail1">
+              </div>
+            </td>
+            <td style="width: 20%">
+              <div class="form-group">
+                <label for="exampleInputEmail1">Status</label>
+                <input type="text" class="form-control" id="exampleInputEmail1">
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="width: 20%">
+              <div class="form-group">
+                <label for="exampleInputEmail1">Out of payment</label>
+                <input type="text" class="form-control" id="exampleInputEmail1">
+              </div>
+            </td>
+            <td style="width: 20%">
+              <div class="form-group">
+                <label for="exampleInputEmail1">Method of payment</label>
+                <input type="text" class="form-control" id="exampleInputEmail1">
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="width: 20%">
+              <div class="form-group">
+                <label for="exampleInputEmail1">Notes</label>
+                <input type="text" class="form-control" id="exampleInputEmail1">
+              </div>
+            </td>
+          </tr>
         </table>
 
         <button class="btn btn-primary" type="submit">Save</button>
-        <a class="btn btn-primary" href="dashboard.html">Cancel</a>
+        <a class="btn btn-primary" href="properties.html">Cancel</a>
 
       </form>
     </div>
