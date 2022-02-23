@@ -87,7 +87,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                             novalidate>
                                             <fieldset class="form-group position-relative has-icon-left">
                                                 <input type="text" class="form-control" id="user-name"
-                                                    placeholder="Your Username" required>
+                                                    placeholder="Your Username" required value="Gaston Barbaccia">
                                                 <div class="form-control-position">
                                                     <i class="fa fa-user"></i>
                                                 </div>
