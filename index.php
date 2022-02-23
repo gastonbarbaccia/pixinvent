@@ -14,7 +14,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <html class="loading" lang="en" data-textdirection="ltr">
 <!-- BEGIN: Head-->
 
-<!-- Mirrored from pixinvent.com/stack-responsive-bootstrap-4-admin-template/html/ltr/vertical-modern-menu-template/recover-password.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 Jan 2022 22:31:22 GMT -->
+<!-- Mirrored from pixinvent.com/stack-responsive-bootstrap-4-admin-template/html/ltr/vertical-modern-menu-template/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 Jan 2022 22:29:29 GMT -->
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -25,15 +25,17 @@ License: You must have a valid license purchased only from themeforest(the above
     <meta name="keywords"
         content="admin template, stack admin template, dashboard template, flat admin template, responsive admin template, web app">
     <meta name="author" content="PIXINVENT">
-    <title>Recover Password - Stack Responsive Bootstrap 4 Admin Template</title>
+    <title>Login with Background Image - Stack Responsive Bootstrap 4 Admin Template</title>
     <link rel="apple-touch-icon" href="/app-assets/images/ico/apple-icon-120.png">
     <link rel="shortcut icon" type="image/x-icon" href="/app-assets/images/ico/favicon.ico">
     <link
-        href="/fonts.googleapis.com/css9764.css?family=Montserrat:300,300i,400,400i,500,500i%7COpen+Sans:300,300i,400,400i,600,600i,700,700i"
+        href="/../../fonts.googleapis.com/css9764.css?family=Montserrat:300,300i,400,400i,500,500i%7COpen+Sans:300,300i,400,400i,600,600i,700,700i"
         rel="stylesheet">
 
     <!-- BEGIN: Vendor CSS-->
     <link rel="stylesheet" type="text/css" href="/app-assets/vendors/css/vendors.min.css">
+    <link rel="stylesheet" type="text/css" href="/app-assets/vendors/css/forms/icheck/icheck.css">
+    <link rel="stylesheet" type="text/css" href="/app-assets/vendors/css/forms/icheck/custom.css">
     <!-- END: Vendor CSS-->
 
     <!-- BEGIN: Theme CSS-->
@@ -46,6 +48,7 @@ License: You must have a valid license purchased only from themeforest(the above
     <!-- BEGIN: Page CSS-->
     <link rel="stylesheet" type="text/css" href="/app-assets/css/core/menu/menu-types/vertical-menu-modern.css">
     <link rel="stylesheet" type="text/css" href="/app-assets/css/core/colors/palette-gradient.min.css">
+    <link rel="stylesheet" type="text/css" href="/app-assets/css/pages/login-register.min.css">
     <!-- END: Page CSS-->
 
     <!-- BEGIN: Custom CSS-->
@@ -57,8 +60,8 @@ License: You must have a valid license purchased only from themeforest(the above
 
 <!-- BEGIN: Body-->
 
-<body class="vertical-layout vertical-menu-modern 1-column   blank-page blank-page" data-open="click"
-    data-menu="vertical-menu-modern" data-col="1-column">
+<body class="vertical-layout vertical-menu-modern 1-column  bg-full-screen-image blank-page blank-page"
+    data-open="click" data-menu="vertical-menu-modern" data-col="1-column">
     <!-- BEGIN: Content-->
     <div class="app-content content">
         <div class="content-overlay"></div>
@@ -69,37 +72,55 @@ License: You must have a valid license purchased only from themeforest(the above
                 <section class="row flexbox-container">
                     <div class="col-12 d-flex align-items-center justify-content-center">
                         <div class="col-lg-4 col-md-8 col-10 box-shadow-2 p-0">
-                            <div class="card border-grey border-lighten-3 px-2 py-2 m-0">
-                                <div class="card-header border-0 pb-0">
+                            <div class="card border-grey border-lighten-3 px-1 py-1 m-0">
+                                <div class="card-header border-0">
                                     <div class="card-title text-center">
                                         <img src="/app-assets/images/logo/stack-logo-dark.png" alt="branding logo">
                                     </div>
                                     <h6 class="card-subtitle line-on-side text-muted text-center font-small-3 pt-2">
-                                        <span>We will send
-                                            you a link to reset password.</span></h6>
+                                    </h6>
                                 </div>
                                 <div class="card-content">
                                     <div class="card-body">
                                         <form class="form-horizontal"
-                                            action="https://pixinvent.com/stack-responsive-bootstrap-4-admin-template/html/ltr/vertical-modern-menu-template/login-simple.html"
+                                            action=""
                                             novalidate>
                                             <fieldset class="form-group position-relative has-icon-left">
-                                                <input type="email" class="form-control form-control-lg" id="user-email"
-                                                    placeholder="Your Email Address" required>
+                                                <input type="text" class="form-control" id="user-name"
+                                                    placeholder="Your Username" required>
                                                 <div class="form-control-position">
-                                                    <i class="feather icon-mail"></i>
+                                                    <i class="fa fa-user"></i>
                                                 </div>
                                             </fieldset>
-                                            <button type="submit" class="btn btn-outline-primary btn-lg btn-block"><i
-                                                    class="feather icon-unlock"></i> Recover Password</button>
+                                            <fieldset class="form-group position-relative has-icon-left">
+                                                <input type="password" class="form-control" id="user-password"
+                                                    placeholder="Enter Password" required>
+                                                <div class="form-control-position">
+                                                    <i class="fa fa-key"></i>
+                                                </div>
+                                            </fieldset>
+                                            <div class="form-group row">
+                                                <div class="col-sm-6 col-12 text-center text-sm-left pr-0">
+                                                    <fieldset>
+                                                        <input type="checkbox" id="remember-me" class="chk-remember">
+                                                        <label for="remember-me"> Remember Me</label>
+                                                    </fieldset>
+                                                </div>
+                                                <div class="col-sm-6 col-12 float-sm-left text-center text-sm-right"><a
+                                                        href="recover-password.php" class="card-link">Forgot
+                                                        Password?</a></div>
+                                            </div>
+                                            <a type="submit" class="btn btn-outline-primary btn-block" href="dashboard.php"><i
+                                                    class="fa fa-arrow-circle-right" style="font-size: 15px;"></i> Login</a>
                                         </form>
                                     </div>
-                                </div>
-                                <div class="card-footer border-0">
-                                    <p class="float-sm-left text-center"><a href="index.html"
-                                            class="card-link">Login</a></p>
-                                    <p class="float-sm-right text-center">New to Stack ? <a href="register.html"
-                                            class="card-link">Create Account</a></p>
+                                    <p class="card-subtitle line-on-side text-muted text-center font-small-3 mx-2 my-1">
+                                        <span>New to
+                                            Stack ?</span></p>
+                                    <div class="card-body">
+                                        <a href="register.php" class="btn btn-outline-danger btn-block"><i
+                                                class="fa fa-user"></i> Register</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -117,6 +138,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
     <!-- BEGIN: Page Vendor JS-->
     <script src="/app-assets/vendors/js/forms/validation/jqBootstrapValidation.js"></script>
+    <script src="/app-assets/vendors/js/forms/icheck/icheck.min.js"></script>
     <!-- END: Page Vendor JS-->
 
     <!-- BEGIN: Theme JS-->
@@ -131,6 +153,6 @@ License: You must have a valid license purchased only from themeforest(the above
 </body>
 <!-- END: Body-->
 
-<!-- Mirrored from pixinvent.com/stack-responsive-bootstrap-4-admin-template/html/ltr/vertical-modern-menu-template/recover-password.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 Jan 2022 22:31:22 GMT -->
+<!-- Mirrored from pixinvent.com/stack-responsive-bootstrap-4-admin-template/html/ltr/vertical-modern-menu-template/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 Jan 2022 22:29:32 GMT -->
 
 </html>

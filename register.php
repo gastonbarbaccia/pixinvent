@@ -14,7 +14,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <html class="loading" lang="en" data-textdirection="ltr">
 <!-- BEGIN: Head-->
 
-<!-- Mirrored from pixinvent.com/stack-responsive-bootstrap-4-admin-template/html/ltr/vertical-modern-menu-template/register-with-bg-image.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 Jan 2022 22:31:22 GMT -->
+<!-- Mirrored from pixinvent.com/stack-responsive-bootstrap-4-admin-template/html/ltr/vertical-modern-menu-template/register-with-bg-image.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 Jan 2022 22:31:22 GMT -->
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -83,7 +83,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                 <div class="card-content">
                                     <div class="card-body">
                                         <form class="form-horizontal"
-                                            action="https://pixinvent.com/stack-responsive-bootstrap-4-admin-template/html/ltr/vertical-modern-menu-template/index.html"
+                                            action="https://pixinvent.com/stack-responsive-bootstrap-4-admin-template/html/ltr/vertical-modern-menu-template/index.php"
                                             novalidate>
                                             <fieldset class="form-group position-relative has-icon-left">
                                                 <input type="text" class="form-control" id="user-name"
@@ -114,13 +114,13 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     </fieldset>
                                                 </div>
                                                 <div class="col-sm-6 col-12 float-sm-left text-center text-sm-right"><a
-                                                        href="recover-password.html" class="card-link">Forgot
+                                                        href="recover-password.php" class="card-link">Forgot
                                                         Password?</a></div>
                                             </div>
                                             <button type="submit" class="btn btn-outline-primary btn-block"><i
                                                     class="fa fa-user"></i> Register</button>
                                         </form>
-                                        <a href="index.html" class="btn btn-outline-danger btn-block mt-2"><i
+                                        <a href="index.php" class="btn btn-outline-danger btn-block mt-2"><i
                                                 class="fa fa-arrow-circle-right"></i> Login</a>
                                     </div>
                                 </div>
@@ -155,6 +155,6 @@ License: You must have a valid license purchased only from themeforest(the above
 </body>
 <!-- END: Body-->
 
-<!-- Mirrored from pixinvent.com/stack-responsive-bootstrap-4-admin-template/html/ltr/vertical-modern-menu-template/register-with-bg-image.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 Jan 2022 22:31:22 GMT -->
+<!-- Mirrored from pixinvent.com/stack-responsive-bootstrap-4-admin-template/html/ltr/vertical-modern-menu-template/register-with-bg-image.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 21 Jan 2022 22:31:22 GMT -->
 
 </html>
