@@ -26,33 +26,33 @@ License: You must have a valid license purchased only from themeforest(the above
     content="admin template, stack admin template, dashboard template, flat admin template, responsive admin template, web app">
   <meta name="author" content="PIXINVENT">
   <title>CRM Dashboard - Stack Responsive Bootstrap 4 Admin Template</title>
-  <link rel="apple-touch-icon" href="/app-assets/images/ico/apple-icon-120.png">
-  <link rel="shortcut icon" type="image/x-icon" href="/app-assets/images/ico/favicon.ico">
+  <link rel="apple-touch-icon" href="app-assets/images/ico/apple-icon-120.png">
+  <link rel="shortcut icon" type="image/x-icon" href="app-assets/images/ico/favicon.ico">
   <link
     href="/fonts.googleapis.com/css9764.css?family=Montserrat:300,300i,400,400i,500,500i%7COpen+Sans:300,300i,400,400i,600,600i,700,700i"
     rel="stylesheet">
 
   <!-- BEGIN: Vendor CSS-->
-  <link rel="stylesheet" type="text/css" href="/app-assets/vendors/css/vendors.min.css">
+  <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/vendors.min.css">
   <!-- END: Vendor CSS-->
 
   <!-- BEGIN: Theme CSS-->
-  <link rel="stylesheet" type="text/css" href="/app-assets/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="/app-assets/css/bootstrap-extended.min.css">
-  <link rel="stylesheet" type="text/css" href="/app-assets/css/colors.min.css">
-  <link rel="stylesheet" type="text/css" href="/app-assets/css/components.min.css">
+  <link rel="stylesheet" type="text/css" href="app-assets/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="app-assets/css/bootstrap-extended.min.css">
+  <link rel="stylesheet" type="text/css" href="app-assets/css/colors.min.css">
+  <link rel="stylesheet" type="text/css" href="app-assets/css/components.min.css">
   <!-- END: Theme CSS-->
 
   <!-- BEGIN: Page CSS-->
-  <link rel="stylesheet" type="text/css" href="/app-assets/css/core/menu/menu-types/vertical-menu-modern.css">
-  <link rel="stylesheet" type="text/css" href="/app-assets/css/core/colors/palette-gradient.min.css">
-  <link rel="stylesheet" type="text/css" href="/app-assets/fonts/simple-line-icons/style.min.css">
-  <link rel="stylesheet" type="text/css" href="/app-assets/css/pages/card-statistics.min.css">
-  <link rel="stylesheet" type="text/css" href="/app-assets/css/pages/vertical-timeline.min.css">
+  <link rel="stylesheet" type="text/css" href="app-assets/css/core/menu/menu-types/vertical-menu-modern.css">
+  <link rel="stylesheet" type="text/css" href="app-assets/css/core/colors/palette-gradient.min.css">
+  <link rel="stylesheet" type="text/css" href="app-assets/fonts/simple-line-icons/style.min.css">
+  <link rel="stylesheet" type="text/css" href="app-assets/css/pages/card-statistics.min.css">
+  <link rel="stylesheet" type="text/css" href="app-assets/css/pages/vertical-timeline.min.css">
   <!-- END: Page CSS-->
 
   <!-- BEGIN: Custom CSS-->
-  <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <!-- END: Custom CSS-->
 
 </head>
@@ -71,7 +71,7 @@ License: You must have a valid license purchased only from themeforest(the above
           <li class="nav-item mobile-menu d-lg-none mr-auto"><a class="nav-link nav-menu-main menu-toggle hidden-xs"
               href="#"><i class="feather icon-menu font-large-1"></i></a></li>
           <li class="nav-item mr-auto"><a class="navbar-brand" href="index.php"><img class="brand-logo"
-                alt="stack admin logo" src="/app-assets/images/logo/stack-logo-light.png">
+                alt="stack admin logo" src="app-assets/images/logo/stack-logo-light.png">
               <h2 class="brand-text">Stack</h2>
             </a></li>
           <li class="nav-item d-lg-none"><a class="nav-link open-navbar-container" data-toggle="collapse"
@@ -154,7 +154,7 @@ License: You must have a valid license purchased only from themeforest(the above
           <ul class="nav navbar-nav float-right">
             <li class="dropdown dropdown-user nav-item"><a class="dropdown-toggle nav-link dropdown-user-link" href="#"
                 data-toggle="dropdown">
-                <div class="avatar avatar-online"><img src="/app-assets/images/portrait/small/avatar-s-1.png"
+                <div class="avatar avatar-online"><img src="app-assets/images/portrait/small/avatar-s-1.png"
                     alt="avatar"><i></i></div><span class="user-name">John Doe</span>
               </a>
               <div class="dropdown-menu dropdown-menu-right"><a class="dropdown-item" href="profile.php"><i
@@ -319,21 +319,21 @@ License: You must have a valid license purchased only from themeforest(the above
 
 
   <!-- BEGIN: Vendor JS-->
-  <script src="/app-assets/vendors/js/vendors.min.js"></script>
+  <script src="app-assets/vendors/js/vendors.min.js"></script>
   <!-- BEGIN Vendor JS-->
 
   <!-- BEGIN: Page Vendor JS-->
-  <script src="/app-assets/vendors/js/charts/apexcharts/apexcharts.min.js"></script>
+  <script src="app-assets/vendors/js/charts/apexcharts/apexcharts.min.js"></script>
   <!-- END: Page Vendor JS-->
 
   <!-- BEGIN: Theme JS-->
-  <script src="/app-assets/js/core/app-menu.min.js"></script>
-  <script src="/app-assets/js/core/app.min.js"></script>
-  <script src="/app-assets/js/scripts/customizer.min.js"></script>
+  <script src="app-assets/js/core/app-menu.min.js"></script>
+  <script src="app-assets/js/core/app.min.js"></script>
+  <script src="app-assets/js/scripts/customizer.min.js"></script>
   <!-- END: Theme JS-->
 
   <!-- BEGIN: Page JS-->
-  <script src="/app-assets/js/scripts/cards/card-statistics.min.js"></script>
+  <script src="app-assets/js/scripts/cards/card-statistics.min.js"></script>
   <!-- END: Page JS-->
 </body>
 <!-- END: Body-->
