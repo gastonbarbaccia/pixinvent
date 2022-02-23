@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <!--
-
-Pepito !!!
 Template Name: Stack - Stack - Bootstrap 4 Admin Template
 Author: PixInvent
 Website: http://www.pixinvent.com/
